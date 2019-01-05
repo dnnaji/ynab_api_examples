@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "env": {
+    "YNAB_API_TOKEN": "@ynab-api-token",
+    "API_BASIC_AUTH_PW": "@api-basic-auth-pw"
+  },
+  "builds": [{ "src": "index.js", "use": "@now/node" }]
+}

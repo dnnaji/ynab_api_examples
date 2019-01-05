@@ -1,0 +1,20 @@
+{
+  "name": "external-api-call",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "micro",
+    "dev": "micro-dev"
+  },
+  "dependencies": {
+    "basic-auth": "^2.0.1",
+    "micro": "latest",
+    "node-fetch": "latest",
+    "tsscmp": "^1.0.6"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "micro-dev": "^3.0.0"
+  }
+}
