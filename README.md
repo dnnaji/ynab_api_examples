@@ -3,6 +3,8 @@ I have been a fan of [YNAB's](https://ynab.com/referral/?ref=OLj2GyRGnN2oeQ1K&ut
 
 **API Documentation**: https://api.youneedabudget.com
 
+The link to YNAB is a referral link, you get one month free.  Feel free to go directly to their website: https://www.youneedabudget.com
+
 As for this GitHub repo, I have stored my experiments of exploring their API.
 
 
