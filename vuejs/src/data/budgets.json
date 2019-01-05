@@ -1,0 +1,26 @@
+{
+  "data": {
+    "budgets": [
+      {
+        "id": "",
+        "name": "",
+        "last_modified_on": "2018-12-16T17:37:27+00:00",
+        "first_month": "2018-11-01",
+        "last_month": "2018-12-01",
+        "date_format": {
+          "format": "MM/DD/YYYY"
+        },
+        "currency_format": {
+          "iso_code": "USD",
+          "example_format": "123,456.78",
+          "decimal_digits": 2,
+          "decimal_separator": ".",
+          "symbol_first": true,
+          "group_separator": ",",
+          "currency_symbol": "$",
+          "display_symbol": true
+        }
+      }
+    ]
+  }
+}
