@@ -44,7 +44,7 @@ var refObjects = map[string]string{
 	"category": "categories",
 }
 
-// GetTransactions : ffff
+// GetTransactions : 
 func GetTransactions(w http.ResponseWriter, r *http.Request) {
 	// Read from YNAB API
 	// Get env Token

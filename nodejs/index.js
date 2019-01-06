@@ -47,7 +47,7 @@ module.exports = async (req, res) => {
     res.end(responseJSON);
   }
 
-  // Assume using micro
+  // Assume using micro-dev
   return budgetTransactionsJSON(json);
 };
 
@@ -78,19 +78,18 @@ function budgetTransactionsJSON(json) {
   );
 
   const getFilteredTransactionsbyCategoryGroup = categoryGroupID => {
-    // Filter out only active categoryes based on categoryGroupID
+    // Include only active categories based on categoryGroupID
     let filterCategories = budget.categories
       .filter(
         c => c.category_group_id === categoryGroupID && c.deleted !== true
       )
       .map(category => category.id);
 
-    //console.log(filterCategories);
     return budget.transactions.filter(t => {
       return filterCategories.indexOf(t.category_id) !== -1;
     });
   };
-  // Spearcial formating to convert YNAB API amount to decimal value
+  // Special formating to convert YNAB API amount to decimal value
   const formatYNABAmount = num => Number((num / 1000).toFixed(2));
 
   const getBudgetTransaction = object => {
